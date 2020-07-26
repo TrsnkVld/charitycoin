@@ -1,0 +1,2454 @@
+
+@font-face {
+    font-family: "NanamiPro";
+    src: url("../fonts/nanami/NanamiPro-Normal.otf") format("opentype");
+}
+@font-face {
+    font-family: "NanamiPro-Regular2";
+    src: url("../fonts/nanami/NanamiPro-Regular2.otf") format("opentype");
+}
+@font-face {
+    font-family: "NanamiPro-Regular3";
+    src: url("../fonts/nanami/NanamiPro-Regular3.otf") format("opentype");
+}
+@font-face {
+    font-family: "NanamiPro-Regular4";
+    src: url("../fonts/nanami/NanamiPro-Regular4.otf") format("opentype");
+}
+@font-face {
+    font-family: "NanamiPro-Regular5";
+    src: url("../fonts/nanami/NanamiPro-Regular5.otf") format("opentype");
+}
+@font-face {
+    font-family: "NanamiPro-Regular6";
+    src: url("../fonts/nanami/NanamiPro-Regular6.otf") format("opentype");
+}
+@font-face {
+    font-family: "NanamiPro-Regular7";
+    src: url("../fonts/nanami/NanamiPro-Regular7.otf") format("opentype");
+}
+@font-face {
+    font-family: "NanamiPro-Regular8";
+    src: url("../fonts/nanami/NanamiPro-Regular8.otf") format("opentype");
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background: #070708;
+    color: #ffffff;
+	font-family: "NanamiPro";
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding-left: 23px;
+}
+
+ul li {
+    list-style: none;
+     line-height: 22px;
+    list-style-image: url(../images/list_style.png);
+    padding: 10px 0 10px 15px;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+a:focus, a:hover {
+    color: unset;
+    transition: 0.5s;
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+.btn.focus, .btn:focus, .btn:hover {
+    color: unset;
+    text-decoration: none;
+}
+
+.wrapper {
+    overflow: hidden;
+    background: -moz-linear-gradient(top, rgba(11,3,6,1) 12%, rgba(34,36,167,1) 21%, rgba(34,36,167,1) 33%, rgba(34,36,167,1) 40%, rgba(127,74,81,1) 60%, rgba(33,10,75,1) 77%, rgba(33,10,75,1) 77%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(11,3,6,1) 12%,rgba(34,36,167,1) 21%,rgba(34,36,167,1) 33%,rgba(34,36,167,1) 40%,rgba(127,74,81,1) 60%,rgba(33,10,75,1) 77%,rgba(33,10,75,1) 77%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(11,3,6,1) 12%,rgba(34,36,167,1) 21%,rgba(34,36,167,1) 33%,rgba(34,36,167,1) 40%,rgba(127,74,81,1) 60%,rgba(33,10,75,1) 77%,rgba(33,10,75,1) 77%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0b0306', endColorstr='#210a4b',GradientType=0 ); /* IE6-9 */
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.main_image {
+    position: absolute;
+    top: 20px;
+    right: -270px;
+}
+
+.main_image img {
+    /* height: 840px; */
+}
+
+/*-------------HEADER------------------*/
+
+.header {
+    background: #070708;
+}
+
+.menu {
+    padding-top: 10px;
+}
+
+.menu_item {
+    display: inline-block;
+    padding-left: 30px;
+    text-shadow: 0px 0px 5px black;
+     background: none;
+}
+
+.menu_link_text, .logo_text{
+    color: #ffffff;
+}
+
+.header_top {
+    padding: 93px 0px;    
+    position: relative;
+}
+
+.header_top:before {
+    display: table;
+    content: "";
+}
+.header_top:after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.header_logo {
+    font-family: "NanamiPro-Regular8";
+    max-width: 250px;
+    float: left;
+}
+
+.logo {
+    display: block;
+}
+
+.logo_pic {
+    display: block;
+    max-width: 200px;
+    float: left;
+    margin-right: 17px;
+}
+
+.logo_text {
+    letter-spacing: 1.6px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.header_menu {
+    float: right;
+    font-size: 16.73px;
+    letter-spacing: 0.3346px;
+}
+
+/*------------------Content--------------*/
+
+.btn_money_button, .btn_charitycoins_button {
+    transition: 0.7s;
+}
+
+.btn_charitycoins_button button:hover {
+    transition: 0.7s;
+    background: transparent;
+    color: #ffffff;
+    border: 3px solid #ffffff;
+}
+
+.btn_money_button button:hover {
+    transition: 0.7s;
+    background: transparent;
+    color: #282ccf;
+    border: 3px solid #282ccf;
+}
+
+.partners_info a:hover {
+    opacity: 1;
+    transition: 0.7s;
+}
+
+.parners_img {
+    transition: 0.7s;
+}
+
+.parners_img:hover {
+    background-color: #282ccf;
+    transition: 0.7s;
+}
+
+.btn.focus, .btn:focus, .btn:hover {
+    color: #333;
+    text-decoration: none;
+    outline: none !important;
+}
+
+/*------------section main-------------*/
+
+
+.social img {
+    max-width:30px ;
+}
+
+.main_section {
+    padding-top: 60px;
+}
+
+.slick-list {
+    overflow: visible;
+}
+
+.bigtitle {
+    font-size: 36px;
+    line-height: 38px;
+    font-family: NanamiPro-Regular8;
+    letter-spacing: 1.44px;
+}
+
+.main_description_top_text {
+    max-width: 375px;
+    text-shadow: 0px 0px 5px black;
+    font-family: NanamiPro;
+    font-size: 36px;
+    line-height: 38px;
+    letter-spacing: 1.44px;
+}
+
+.main_description_bottom {
+    font-size: 16px;
+    font-family: NanamiPro-Regular6;
+    letter-spacing: 0.62px;
+    color: #ababab;
+    padding-top: 20px;
+}
+
+.main_description_bottom_text {
+    max-width: 300px;
+    line-height: 21px;
+}
+
+.main_buttons {
+    padding-top: 90px;
+    padding-left: 0;
+    
+    
+}
+
+.btn_charitycoins {
+    color: #070708;   
+    float: left;
+    width: fit-content;
+    width: -moz-min-content;
+}
+
+/*---------------section charitycoin----------------*/
+
+.charitycoin_description {
+    padding-top: 280px;
+}
+
+.main_buttons button {
+    border-radius: 50px;
+    font-size: 16.73px;
+    letter-spacing: 0.3346px;
+    padding: 14px 30px;
+    border: 3px solid black;
+    transition: 0.7s;
+}
+
+.btn_charitycoins button {
+    background: #ffffff;
+    border: 3px solid #ffffff;
+}
+
+.btn_money {
+    color: #ffffff;    
+}
+
+.btn_money button {
+    background: #282ccf;
+    border: 3px solid #282ccf;
+}
+
+.btn_money_text, .btn_charitycoins_text {
+    color: #828285;
+}
+
+.btn_charitycoins_description, .btn_money_description {
+    padding: 0 30px;
+    max-width: 181px;
+    letter-spacing: 0.48px;
+    font-size: 12px;
+    padding-top: 20px;    
+    font-family: NanamiPro-Regular6;
+}
+
+.btn_money_description {
+    float: left;
+}
+
+.coin_value_text {
+    z-index: 1 !important;
+}
+
+.charitycoin_description_top {
+    padding-bottom: 35px;
+}
+
+.charitycoin_description_bottom {
+    padding-top: 35px;
+    padding-bottom: 60px;
+    width: 100%;
+    display: inline-block;
+    font-family: NanamiPro-Regular6;
+    letter-spacing: 1px;
+}
+
+.charitycoin_description_top_text {
+    max-width: 315px;
+    line-height: 40px;
+}
+
+.charity_first_img, .charity_second_img {
+    max-width: 140px;
+    max-height: 140px;
+    float: left;
+    margin-right: 26px;
+
+}
+
+.charity_first_text, .charity_second_text {
+    font-size: 21px;
+    line-height: 24px;
+    letter-spacing: 1.44px;
+    max-width: 490px;
+    padding: 9px 0px;
+}
+
+.charity_second_footnote {
+    font-size: 14px;
+    letter-spacing: 0.56px;
+    opacity: 0.3;
+    padding: 40px 0px 0px 140px;
+}
+
+/*-------------------section partners------------------*/
+
+.partners_section {
+    padding-top: 60px;
+}
+
+.partners_bottom {
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.parners_img {
+    position: relative;
+    display: inline-block;
+    border: 1px solid rgba(255, 255, 255, .24);
+    height: 185px;
+}
+
+.parners_img:nth-child(1), .parners_img:nth-child(2), .parners_img:nth-child(3)  {
+    border-right: none;
+}
+.parners_img:nth-child(1), .parners_img:nth-child(2), .parners_img:nth-child(3), .parners_img:nth-child(4) {
+    border-bottom: none;
+}
+.parners_img:nth-child(5), .parners_img:nth-child(6), .parners_img:nth-child(7), .parners_img:nth-child(8)  {
+    border-right: none;
+}
+
+.parners_img img {
+    position: absolute;
+    max-height: 100%;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+/*--------------section team------------------*/
+
+.team_section {
+    padding-bottom: 70px;
+}
+
+.team_bottom {
+    position: relative;
+    padding-top: 48px;
+}
+
+.team_info {
+    padding-top: 60px;
+}
+
+.second_person {
+    padding-top: 150px;
+}
+
+.second_person .person_info {
+    max-width: 385px;
+}
+
+.person_card {
+    padding: 40px 0px;    
+    position: relative;
+}
+
+.chart_img img {
+    width: 100%;
+}
+
+.person_photo {
+    max-width: 280px;
+    max-height: 280px;
+    position: relative;
+}
+
+.person_image {
+    z-index: 2;
+    position: absolute;
+}
+
+.first_person_background_circle {
+    position: relative;
+    top: -32px;
+    left: -48px;
+}
+
+.second_person_background_circle {
+    position: relative;
+    top: 0px;
+    left: 42px;
+}
+
+.person_name {
+    max-width: 200px;
+    position: absolute;
+    top: 160px;
+    right: 70px;
+    line-height: 40px;
+    letter-spacing: 1.44px;
+    font-family: NanamiPro-Regular6;
+    font-size: 36px;
+    z-index: 3;
+}
+
+.person_info {
+    font-size: 16px;
+    max-width: 400px;
+    letter-spacing: 0.96px;
+    line-height: 22px;
+    padding-left: 20px;    
+    padding-bottom: 40px;
+    font-family: NanamiPro-Regular6;
+}
+
+/*--------------------section poverty---------------*/
+
+.poverty_info {
+    padding-bottom: 45px;
+    position: relative;
+}
+
+.poverty_scale {
+    width: 1385px;
+    letter-spacing: 1px;
+}
+
+.poverty_section {
+    padding-top: 110px;
+}
+
+.poverty_title {
+    font-size: 65.5px;
+    max-width: 585px;
+    line-height: 69.14px;
+    letter-spacing: 1.31px;
+    padding-bottom: 30px;
+}
+
+.poverty_description {
+    padding-top: 30px;
+    padding-bottom: 70px;
+    font-family: NanamiPro-Regular6;
+    letter-spacing: 1px;
+}
+
+.poverty_description_left {
+    font-size: 18px;
+    padding-right: 50px;
+     line-height: 24px;
+    letter-spacing: 0.72px;
+}
+
+.poverty_description_right {
+      font-size: 30.8px;
+    line-height: 35.93px;
+    letter-spacing: 1.232px;
+    padding: 0px 185px 0px 70px;
+}
+
+.poverty_scale_title {
+      font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.96px;
+    position: relative;
+    height: 150px;
+}
+
+.poverty_scale_title img {
+    position: absolute;
+    top: -15px;
+    left: -30px;
+} 
+    
+.country_numbers {
+    position: relative;
+    text-align: center;
+    height: 150px;
+}    
+    
+.country_numbers img {
+    max-height: 83px;
+}
+
+.country_numbers_info {
+    position: absolute;
+    bottom: 30px;
+    left: 120px;
+    line-height: 35px;
+    text-align: left;
+    min-width: 130px;
+}
+
+.country_amount {
+    font-family: NanamiPro-Regular2;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 1.44px;
+}
+
+.country_name {
+    font-size: 24px;
+     letter-spacing: 0.96px;
+    font-family: NanamiPro-Regular6;
+}
+
+.title_small {
+    font-size: 14px;
+     letter-spacing: 0.56px;
+    font-family: NanamiPro-Regular6;
+    padding-left: 15px;
+    display: none;
+}
+
+.poverty_img_under {
+    font-size: 14px;
+    letter-spacing: 0.56px;
+    font-family: NanamiPro-Regular6;
+}
+
+/*--------------------section howitworks---------------*/
+
+.howitworks_section {
+    padding-top: 95px;    
+    padding-bottom: 130px;
+}
+
+.howitworks_description {
+      font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.72px;
+    font-family: NanamiPro-Regular6;
+    padding-right: 79px;
+    padding-top: 35px;
+}
+
+.chart_title {
+      font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.96px;
+    font-family: NanamiPro-Regular8;
+    padding-bottom: 85px;
+    padding-left: 40px;
+    max-width: 210px;
+    position: relative;
+}
+
+.chart_title img {
+    position: absolute;
+    top: -33px;
+    left: 0px;
+}
+
+/*----------------------section coin_qualities----------------*/
+
+.coin_qualities_section {
+    padding-bottom: 70px;
+}
+
+.supervised_title, .sustainable_title {
+      font-size: 48px;
+    line-height: 38px;
+    letter-spacing: 0.96px;
+    font-family: NanamiPro-Regular8;
+    padding-bottom: 35px;
+}
+
+.supervised_description, .sustainable_description {
+      font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.72px;
+    font-family: NanamiPro-Regular6;
+}
+
+.supervised_description b {
+    font-weight: unset;
+    font-family: NanamiPro-Regular4;
+}
+
+.supervised_card, .sustainable_card {
+    border: 4px solid #ffffff;
+    border-radius: 5px;
+    padding: 57px;
+}
+
+.sustainable_card {
+    color: #121212;
+    background-color: #ffffff;
+}
+
+.slick-prev, .slick-next {
+    display: none;
+}
+
+.first_card {
+    padding: 0 15px 0 15px;
+}
+
+.second_card {
+}
+.coin_qualities_info {
+}
+
+/*---------------------------------------section foundation-------------------------*/
+
+.coin_foundation_section {
+    padding-bottom: 75px;
+}
+
+.foundation_title {
+      font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.96px;
+    font-family: NanamiPro-Regular8;    
+    padding-bottom: 35px;
+    max-width: 230px;
+}
+
+.foundation_text {
+      font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.72px;
+    font-family: NanamiPro-Regular6;
+}
+
+.coin_foundation_description {
+    padding-left: 60px;
+    padding-right: 170px;
+}
+
+.foundation_chart_img {
+    position: relative;
+}
+
+.foundation_chart_img img {
+    width: 100%;
+}
+
+.foundation_text ul {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.foundation_bottom {
+    border-top: 1px solid #ffffff38;
+    padding-top: 25px;
+     font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.64px;
+    font-family: NanamiPro-Regular6;
+}
+
+/*------------------section technology---------------*/
+
+.technology_section {
+    padding-top: 75px;
+    padding-bottom: 58px;
+}
+
+.technology_title {
+    padding-bottom: 37px;
+}
+
+.technology_description {
+    background-color: #282ccf;
+    border-radius: 6px;
+    padding: 37px 40px 37px 0;
+    z-index: 1;
+}
+
+.technology_info_first {
+    font-size: 18px;
+    font-family: NanamiPro-Regular8;
+     letter-spacing: 0.72px;
+    line-height: 24px;
+    padding-top: 23px;
+}
+
+.technology_info_second {
+    font-size: 16px;
+    font-family: NanamiPro-Regular6;
+     letter-spacing: 0.64px;
+    padding-top: 23px;
+    line-height: 24px;
+}
+
+/*-----------------------section coin_value------------------*/
+
+.coin_value_section {
+    padding-bottom: 75px;    
+    padding-top: 60px;
+}
+
+.coin_value_title {
+    max-width: 500px;
+    padding-bottom: 50px;
+}
+
+.coin_value_cell {
+    font-size: 18px;
+    font-family: NanamiPro-Regular6;
+    letter-spacing: 0.72px;
+    line-height: 24px;
+    border: 1px solid rgba(255,255,255,0.2);
+    position: relative;
+    height: 300px;
+    float: left;
+    border-top: none;
+    display: flex;
+    padding: 30px 45px 30px 30px;
+    align-items: flex-end;
+}
+
+.coin_value_description .coin_value_cell:nth-child(-n+3) {
+    border-top: 1px solid rgba(255,255,255,0.2);
+}
+
+.small_cell {
+    width: 25%;
+}
+
+.medium_cell {  
+    width: 39.4%;
+    border-right: none;
+}
+
+.medium1_cell {
+    width: 35.4%;
+    border-right: none;
+}
+
+.big_cell {
+    width: 74.8%;
+    border-right: none;
+}
+
+.cell_1 .background_number {
+    padding-right: 5px;
+}
+
+.cell_3 {
+    padding-right: 30px;
+}
+
+.cell_4 {
+    padding-right: 80px;
+}
+
+.cell_6 {
+    padding-right: 25px;
+}
+
+.cell_7 {
+    padding-right: 240px;
+}
+
+.background_number {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-top: 25px;
+    padding-right: 25px;
+    color: #40207a;
+    font-family: NanamiPro-Regular2;
+}
+
+.background_number span {
+    font-size: 127px;
+    line-height: 131px;
+}
+
+/*-----------------------footer------------------------*/
+
+.footer {
+    padding: 75px 0;
+    font-family: NanamiPro-Regular6;
+}
+
+.footer_info {
+    position: relative;
+     letter-spacing: 0.56px;
+}
+
+.footer_left {
+    opacity: 0.3;
+}
+
+.footer .social {
+    padding-left: 10px;
+}
+
+/*----------------------circles-------------------*/
+
+.circle_in_rotation {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.circle_in_rotation img {
+    position: absolute;
+    left: 150px;
+    top: -80px;
+    -webkit-animation-name: spin;
+    -webkit-animation-duration: 200000ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: spin;
+    -moz-animation-duration: 200000ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: spin;
+    -ms-animation-duration: 200000ms;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+
+    animation-name: spin;
+    animation-duration: 200000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.circle_in_rotation img:nth-child(1) {
+    animation-duration: 60000ms;
+    animation-direction: reverse;
+}
+
+.circle_in_rotation img:nth-child(2) {
+    animation-duration: 50000ms;
+    animation-direction: normal;
+}
+
+.circle_in_rotation img:nth-child(3) {
+    animation-duration: 49000ms;
+    animation-direction: reverse;
+}
+
+.circle_in_rotation img:nth-child(4) {
+    animation-duration: 100500ms;
+    animation-direction: normal;
+}
+
+.circle_in_rotation img:nth-child(5) {
+    animation-duration: 242580ms;
+    animation-direction: reverse;
+}
+
+@-ms-keyframes spin {
+    from { -ms-transform: rotate(0deg); }
+    to { -ms-transform: rotate(360deg); }
+}
+@-moz-keyframes spin {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+.circle1 {
+    position: absolute;    
+    top: -120px;
+     left: 330px;
+}
+.circle1a {
+    position: absolute;
+    top: 530px;
+    right: -50px;
+    display: none;
+    transform: rotate(-20deg);
+}
+.circle1a img {
+    height: 800px;
+}
+.circle2 {
+    position: relative;
+    top: 0px;
+    right: 0px;
+    height: 0;
+    width: 0;
+}
+
+.circle2 img {
+    top: -30px;
+    right: -2090px;
+    position: absolute;
+    -webkit-animation-name: spin;
+    -webkit-animation-duration: 200000ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: spin;
+    -moz-animation-duration: 200000ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: spin;
+    -ms-animation-duration: 200000ms;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+
+    animation-name: spin;
+    animation-duration: 200000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.circle2 img:nth-child(1) {
+    animation-duration: 10000ms;
+    animation-direction: reverse;
+}
+
+.circle2 img:nth-child(2) {
+    animation-duration: 50000ms;
+    animation-direction: normal;
+}
+
+.circle2 img:nth-child(3) {
+    animation-duration: 49000ms;
+    animation-direction: reverse;
+}
+
+.circle3 {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 0;
+    width: 0;
+}
+
+.circle3 img {
+    position: absolute;
+    top: -158px;
+    left: -1298px;
+    -webkit-animation-name: spin;
+    -webkit-animation-duration: 200000ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: spin;
+    -moz-animation-duration: 200000ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: spin;
+    -ms-animation-duration: 200000ms;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+
+    animation-name: spin;
+    animation-duration: 200000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.circle3 img:nth-child(1) {
+    animation-duration: 23000ms;
+    animation-direction: reverse;
+}
+
+.circle3 img:nth-child(2) {
+    animation-duration: 30000ms;
+    animation-direction: normal;
+}
+
+.circle3 img:nth-child(3) {
+    animation-duration: 53000ms;
+    animation-direction: reverse;
+}
+
+.circle4 {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+}
+
+.circle4 img {
+    position: absolute;
+    bottom: -620px;
+    left: -120px;
+    width: 1999px;
+    -webkit-animation-name: spin;
+    -webkit-animation-duration: 200000ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: spin;
+    -moz-animation-duration: 200000ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: spin;
+    -ms-animation-duration: 200000ms;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+
+    animation-name: spin;
+    animation-duration: 200000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+}
+
+.circle4 img:nth-child(1) {
+    animation-duration: 23000ms;
+    animation-direction: reverse;
+}
+
+.circle4 img:nth-child(2) {
+    animation-duration: 30000ms;
+    animation-direction: normal;
+}
+
+.circle4 img:nth-child(3) {
+    animation-duration: 53000ms;
+    animation-direction: reverse;
+}
+
+/*-------------------media screen ------------------*/
+/* 
+@media (max-width: 560px) {
+
+.technology_info_first {
+    width: 100%;
+}
+  
+.technology_img {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.supervised_card, .sustainable_card {
+    padding: 30px;
+}
+
+.country_numbers {
+    padding-top: 30px;
+}
+
+.coin_value_cell{
+    border: 1px solid #5d33ab !important;
+}
+
+.poverty_scale span, .poverty_scale div {
+    font-size: 20px;
+    line-height: 22px;
+}
+
+.country_numbers, .poverty_scale_title {
+    height: 100px !important;
+}
+
+}
+
+@media (max-width: 712px) {
+
+.technology_img {
+    width: 100%;
+    padding: 0px 15px 35px 15px;
+    text-align: center;
+}
+
+.technology_info_first {
+    width: 100%;
+}
+
+.footer_left {
+    position: unset !important;
+    line-height: unset !important;
+}
+
+.footer_left, .footer_right {
+    text-align: center;
+}
+
+}
+ */
+ 
+@media (min-width: 710px) and (max-width: 767px) {
+
+.technology_img {
+    width: unset;
+}
+
+}
+
+@media (max-width: 767px) {
+    
+ul li {
+    list-style-image: none;
+    background: url(../images/ellipse.png);
+    background-repeat: no-repeat;
+    background-position-x: 0;
+    background-position-y: 1.43416vw;
+    background-size: 2.86832vw;
+}    
+
+.logo_text {
+    font-size: 22.1px;
+    letter-spacing: 1.768px;
+}    
+
+.coin_value_cell {
+    margin: 0 5px;
+    font-size: 27px;
+    line-height: 30px;
+    padding: 30px;
+    float: unset !important;
+    height: 570px ;
+    width: unset !important;
+    border: 1px solid;
+}
+    
+.logo_pic {
+    height: 58px;
+}  
+
+.coin_value_cell {
+    margin: 0.5vw 1.3vw;
+    font-size: 3.6vw;
+    line-height: 4vw;
+    padding: 4vw;
+    float: unset;
+    height: 76vw;
+    letter-spacing: 0.096vw;
+    width: unset !important;
+    border: 0.135vw solid;
+}
+
+.coin_value_description .slick-slide, .coin_value_description .slick-list {
+    max-width: 380px;
+    
+}
+
+
+.coin_qualities_info .slick-slide, .coin_qualities_info .slick-list {
+    max-width: 500px;
+}
+
+.background_number {
+    top: 70px;
+}
+
+.coin_value_description {
+    z-index: 100;
+}
+
+.wrapper {
+    padding: 0 45px;
+    overflow: hidden;
+    background: -moz-linear-gradient(top, rgba(11,3,6,1) 10%,rgba(34,36,167,1) 15%,rgba(34,36,167,1) 38%,rgba(127,74,81,1) 54%,rgba(33,10,75,1) 82%,rgba(33,10,75,1) 3%);
+    background: -webkit-linear-gradient(top, rgba(11,3,6,1) 10%,rgba(34,36,167,1) 15%,rgba(34,36,167,1) 38%,rgba(127,74,81,1) 54%,rgba(33,10,75,1) 82%,rgba(33,10,75,1) 3%);
+    background: linear-gradient(to bottom, rgba(11,3,6,1) 10%,rgba(34,36,167,1) 15%,rgba(34,36,167,1) 38%,rgba(127,74,81,1) 54%,rgba(33,10,75,1) 82%,rgba(33,10,75,1) 3%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0b0306', endColorstr='#210a4b',GradientType=0 );
+}
+
+.container {
+    width: 100%;
+}
+
+.main_description_top {
+    font-size: 48px;
+}
+
+.circle_in_rotation {
+    left: unset;
+    right: 710px;
+    opacity: 0.8;
+}
+
+.circle_in_rotation img {
+    -moz-transform: rotate(-3deg) scale(-1, 1);
+    -ms-transform: rotate(-3deg) scale(-1, 1);
+    -webkit-transform: rotate(-3deg) scale(-1, 1);
+    -o-transform: rotate(-3deg) scale(-1, 1);
+    transform: rotate(-3deg) scale(-1, 1);
+    animation: none !important;
+    width: 1140px;
+}
+
+.circle2 img, .circle3 img, .circle4 img {
+    animation: none !important;
+}
+
+.circle2 img {
+    top: 41.7vw;
+    right: unset;
+    left: 36.1vw;
+    width: 157.2vw;
+}
+
+.circle3 img {
+    top: 41vw;
+    left: -169.2vw;
+    width: 247.7vw;
+}
+
+.circle4 img {
+    width: 260.6vw;
+    left: -33vw;
+    bottom: 13.1vw;
+}
+
+.header_top {
+    padding: 55px 0px;
+}
+
+.circle_in_rotation img {
+    left: 150px;
+    top: -150px;
+}
+
+.main_image {
+    top: 40px;
+    right: -480px;
+}
+
+.main_image img {
+    height: 800px;
+}
+
+.main_section {
+    padding-top: 30px;
+}
+
+.header_menu {
+    font-size: 24px;
+    font-family: "NanamiPro-Regular6";
+}
+
+.menu {
+    padding: 0;
+}
+
+.menu_item {
+    margin: 0 0 0 34px;
+    padding: 0;
+}
+
+.main_description_top_text {
+    max-width: 355px;
+     font-size: 48px;
+     line-height: 47px;
+    letter-spacing: 1.92px;
+}
+
+.main_description_bottom {
+    font-size: 27px;
+    padding-top: 40px;
+}
+
+.main_description_bottom_text {
+    max-width: 375px;
+     line-height: 33px;
+    letter-spacing: 1.08px;
+}
+
+.main_buttons button {
+    font-size: 24px;
+    letter-spacing: 0.48px;
+    padding: 28px 0; 
+    width: 100%;
+    margin-right: 0;
+    font-family: "NanamiPro-Regular4";
+     line-height: 21.56px;
+}
+
+.btn_charitycoins_description, .btn_money_description {
+    padding: 0 8px 0 52px;
+    max-width: 270px;
+    padding-top: 25px;
+    font-size: 18.74px;
+    letter-spacing: 0.7496px;
+    line-height: 21.31px;
+}
+
+
+.title_small {
+    font-size: 18px;
+    margin-top: 60px;
+     display: block;
+}
+
+.poverty_img_under {
+    display: none;
+}
+
+.poverty_scale :before {
+    display: table;
+    content: "";
+}
+.poverty_scale :after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.coin_value_cell {
+    border-color: #5c37a1 !important;
+}
+
+.charitycoin_description {
+    padding-top: 110px;
+}
+
+.charitycoin_description_second {
+    padding-top: 80px;
+}
+    
+.person_name {
+    top: 105px;
+    left: 240px;
+    right: unset;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: 0.96px;
+}  
+
+.second_person .person_name {
+    top: 125px;
+} 
+
+.social img {
+    padding-top: 10px;
+    max-width:unset;
+}
+
+.footer .social img {
+    padding-top: 0;
+}
+
+.footer_left {
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 50px;
+}
+
+.person_info {
+    font-size: 27px;
+    line-height: 4.8vw;
+    letter-spacing: 1.62px;    
+    max-width: 540px;
+    padding-left: 0;
+    padding-bottom: 40px;
+}
+
+.second_person {
+    padding-top: 35px;
+    padding-left: 25%;
+}
+
+.second_person .person_info {
+    max-width: 420px; 
+    padding-top: 20px;
+}
+
+.circle1 {
+    position: absolute;
+    top: -260px;
+    right: -640px;
+    transform: rotate(-56deg);
+}
+
+.circle1 img {
+    width: 800px;
+}
+
+.circle1a {
+    display: block;
+}
+
+.person {
+    z-index: 2;
+}
+
+.poverty_section {
+    padding-top: 0; 
+}
+
+.poverty_description {
+    padding-bottom: 125px;
+}
+
+.poverty_description_right {
+    display: none;
+}
+
+.poverty_description_left {
+    font-size: 27px;
+    padding-right: 0;
+    line-height: 4.8vw;
+    letter-spacing: 1.62px;
+}
+
+.poverty_scale {
+    width: inherit;
+}
+
+.poverty_scale_title {
+    font-size: 30px;
+    line-height: 32px;
+    height: 160px;
+}
+
+.country_numbers_info {
+    bottom: 50px;
+    right: 30px;
+    left: unset;
+    line-height: 35px;
+    text-align: left;
+}
+
+.country_numbers {
+    position: relative;
+    text-align: left;
+    height: 160px;
+}
+
+.country_amount {
+    font-size: 48px;
+    line-height: 40px;
+    letter-spacing: -0.96px;
+}
+
+.poverty_info {
+    padding-bottom: 0; 
+}
+
+.poverty_scale_title img {
+    top: -23px;
+    left: -23px;
+    width: 140px;
+    height: 90px;
+}
+
+.country_name {
+    font-size: 27px;
+}
+
+.howitworks_description {
+    font-size: 27px;
+    padding-right: 15px;
+    line-height: 4.8vw;
+    letter-spacing: 1.62px;
+}
+
+.howitworks_chart {
+    padding-top: 100px;
+}
+
+.chart_title {
+    font-size: 30px;
+    padding-bottom: 60px;
+    padding-left: 0;
+    max-width: 250px;
+}
+
+.chart_title img {
+    top: -33px;
+    left: -50px;
+}
+
+.foundation_title {
+    font-size: 36px;
+    max-width: unset;
+    line-height: 37px;
+}
+
+.coin_foundation_description {
+    padding: 0;
+}
+
+.foundation_text {
+    font-size: 27px;
+    line-height: 31px;
+}
+
+.foundation_text  ul li {
+    line-height: 4.2vw;
+    padding: 1.3vw 0 1.3vw 5.8vw;
+}
+
+.foundation_text ul {
+    padding-left: 30px;
+    padding-right: 180px;
+}
+
+.foundation_bottom {    
+    font-size: 21px;
+    line-height: 27px;
+    margin-left: 75px;
+    padding-right: 240px;
+    width: 100%;
+}
+
+.foundation_chart_img {
+    padding-left: 50px;
+    padding-top: 90px;
+}
+
+.technology_info_first {
+    font-size: 27px;
+    line-height: 30px;
+    padding-top: 0;
+}
+
+.technology_description {
+    padding: 37px 40px;
+}
+
+.technology_info_second {
+    font-size: 24px;
+    padding-top: 23px;
+    line-height: 4.8vw;
+}
+
+.chart_img img {
+    width: 100%;
+}
+
+.circle2 {
+   /*  top: 410px;
+   right: -840px; */
+}
+
+.circle3 {
+   /*  top: 620px;
+   left: -1110px; */
+}
+
+
+.main_buttons {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.btn_charitycoins {
+    width: 354px;
+}
+
+
+
+.btn_money {
+    color: #ffffff;
+    float: right;
+    width: 275px;
+}
+
+.charity_first_text, .charity_second_text {
+    font-size: 27px;
+    line-height: 31px;
+    letter-spacing: 1.62px;
+    max-width: unset;
+    padding: 0;
+}
+
+.charity_second_footnote {
+    font-size: 18px;
+    letter-spacing: 0.72px;
+    padding: 8px 0px 0px 140px;
+}
+
+.charitycoin_description_bottom {
+    padding-bottom: 35px;
+}
+
+.main_description_bottom {
+    color: #ffffff;
+    text-shadow: 0px 0px 10px black;
+}
+
+.footer_info {
+    position: relative;
+    font-size: 21px;
+}
+
+.supervised_description, .sustainable_description {
+    font-size: 27px;
+    line-height: 4.8vw;
+    letter-spacing: 0.11px;
+}
+
+.supervised_card, .sustainable_card {
+    padding: 41px;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    
+.container {
+    width: 690px;
+}
+
+.howitworks_description, .coin_foundation_description {
+    padding-right: 15px;
+}
+
+.poverty_description_right {
+    padding-right: 0;
+}
+
+.poverty_scale {
+    width: unset;
+}
+
+.main_image {
+    top: 100px;
+    right: -650px;
+}
+
+.coin_value_text {
+    z-index: 1;
+    line-height: 21px;
+    letter-spacing: 0px;
+}
+
+.chart_img img {
+    width: 100%;
+}
+
+.person_name {
+    right: -140px;
+    top: 130px;
+}
+
+.supervised_card, .sustainable_card {
+    padding: 18px;
+}
+
+.country_numbers_info {
+    bottom: 50px;
+    right: 30px;
+}
+
+.coin_value_cell {
+    padding: 10px;
+}
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+.container {
+    width: 910px;
+    
+}
+
+.poverty_description_right {
+    padding-right: 85px;
+}
+
+.person_name {
+    right: -40px;
+}
+
+.poverty_scale {
+    width: unset;
+}
+
+.main_image {
+    top: 50px;
+    right: -460px;
+}
+
+.supervised_card, .sustainable_card {
+    padding: 45px;
+}
+
+.poverty_img {
+    max-width: 230px;    
+}
+    
+}
+
+@media (min-width: 1200px) {
+
+.container {
+    width: 1110px;
+}
+
+}
+/* 
+@media (min-width: 280px) and (max-width: 664px) {
+
+.btn_charitycoins, .btn_money, .btn_charitycoins_description, .btn_money_description {
+    width: 100% ;
+}
+
+.footer_left, .footer_right {
+    text-align: center;
+}
+
+.btn_charitycoins_description, .btn_money_description {
+    max-width: unset ;
+    text-align: center;
+    padding: 10px 0 25px 0;
+}
+
+.btn_charitycoins_description, .btn_money_description {
+    width: 100%;
+    max-width: unset;
+    text-align: center;
+}
+
+.charity_first_img, .charity_second_img {
+    max-width: unset;
+    max-height: 140px;
+    float: unset; 
+    padding-right: 0;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.charity_first_text, .charity_second_text {
+    text-align: center;
+}
+
+
+.charity_second_footnote {
+    padding: 0;
+    text-align: center;
+}
+
+.menu {
+    line-height: 28px;
+}
+
+.second_person {
+    padding-left: 15px;
+}
+
+.country_numbers_info {
+    bottom: 0;
+    right: 0;
+    left: 0;
+    line-height: 35px;
+    text-align: center;
+}
+
+.country_numbers {
+    text-align: center;
+}
+
+.person_name {
+    position: unset;
+    max-width: unset;
+    text-align: center;
+    padding-top: 40px;
+}
+
+}
+
+@media (max-width: 449px) {
+    
+.wrapper {
+    padding: 0 5px;
+}
+
+.header_logo {
+    width: 100%;
+    max-width: unset;
+    line-height: 51px;
+    text-align: center;
+}
+
+.logo_pic {
+    display: block;
+    max-width: 200px;
+    float: unset; 
+    padding-right: 0;
+    margin: 0 auto;
+}
+
+.logo_text {
+    font-size: 24px;
+}
+
+.header_menu {
+    font-size: 24px;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.partner_small {
+    width: 50%;
+}
+
+.partner_big {
+    width: 100%;
+}
+
+} */
+
+
+@media (max-width: 749px) {
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    padding-right: 2.238vw;
+    padding-left: 2.238vw;
+}
+
+.header_menu, .poverty_scale_title, .country_name, .chart_title, .foundation_title, .main_buttons button, .technology_info_second {
+    font-size: 3.2vw;
+}
+    
+.logo_text {
+    font-size: 2.9vw;
+    word-spacing: 40px;
+    letter-spacing: 0.2338vw;
+}    
+
+.wrapper {
+    padding: 0 6%;
+} 
+
+.logo {
+    line-height: 3.8718vw;
+}
+
+.logo_pic {
+    height: unset;
+    width: 7.735vw;
+    margin-right: 2.26vw;
+    
+}
+
+.bigtitle, .main_description_top_text, .person_name, .country_amount, .foundation_title {
+     font-size: 4.8vw;
+      line-height: 5.4vw;
+}
+
+body > .coin_value_cell, .main_description_bottom, .person_info, .poverty_description_left, .country_name, .howitworks_description, .foundation_text, .technology_info_first, .charity_first_text, .charity_second_text, .supervised_description, .sustainable_description {
+    font-size: 3.6vw;  
+}
+
+.main_description_top_text {
+    max-width: 55.2%;
+    line-height: 6vw;
+    letter-spacing: 1.44px;
+}
+
+
+.main_description_bottom_text {
+    line-height: 4.5vw;
+    max-width: 50vw;    
+    letter-spacing: 0.144vw;
+}
+
+.header_top {
+    padding: 7.33333vw 0px;
+}
+
+.circle_in_rotation {
+    right: 93vw;
+}
+
+.circle_in_rotation img {
+    left: 20vw;
+    top: -20vw;
+    width: 152vw;
+}
+
+.main_image {
+    top: 5.33333vw;
+    right: -64vw;
+}
+
+.main_image img {
+    height: unset;
+    width: 165vw;
+}
+
+.main_buttons {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 10.666666vw;
+}
+
+.main_buttons button {    
+    letter-spacing: 0.064vw;
+    padding: 3.73333vw 0px;
+    width: 100%;
+    line-height: 2.874666vw;
+}
+
+.btn_charitycoins {
+    width: 46.58vw;
+}
+
+.btn_money {
+    width: 36.232vw;
+}
+
+.btn_charitycoins_description, .btn_money_description {
+    padding: 0 0 0 6.93333vw;
+    max-width: 38.101555vw;
+    padding-top: 3.6vw;
+    font-size: 2.5vw;
+    line-height: 2.8414vw;
+}
+
+.charitycoin_description {
+    padding-top: 14.667vw;
+}
+
+.charitycoin_description_top {
+    padding-bottom: 4.7vw;
+}
+
+.charitycoin_description_top_text {
+    max-width: 58%;
+}
+
+.charitycoin_description_top_text, .country_amount {
+    line-height: 5.4vw;
+}
+
+.charitycoin_description_bottom {
+    padding-bottom: 4.7vw;
+    padding-top: 4.7vw;
+}
+
+.person_info, .poverty_description_left, .howitworks_description, .foundation_text, .charity_first_text, .charity_second_text, .supervised_description, .sustainable_description {
+    line-height: 4.8vw;    
+}
+
+.charity_first_img, .charity_second_img {
+    /* max-width: 140px; */
+    /* max-height: 140px; */
+    /* width: 17.272727%; */
+    width: 18.73015873015873%;
+    /* width: 15.8vw; */
+    margin-right: 4.7vw;
+}
+
+.charity_first_img img, .charity_second_img img {
+    width: 100%;
+}
+
+.charity_first_text, .charity_second_text {
+    letter-spacing: 0.21vw;
+}
+
+.menu_item {
+    margin: 0 0 0 4.23333vw;
+}
+
+.charitycoin_description_second {
+    padding-top: 10.667vw;
+}
+
+.charity_second_footnote {
+    font-size: 2.4vw;
+    letter-spacing: 0.1vw;
+    padding: 1.1vw 0px 0px 22.8vw;
+}
+
+.partners_section {
+    padding-top: 8vw;
+}
+
+.partners_bottom {
+    padding-top: 5.4vw;
+    padding-bottom: 8vw;
+}
+
+.parners_img {
+    border: 0.135vw solid rgba(255, 255, 255, .24);
+    height: 24.668vw;
+}
+
+.parners_img:nth-child(1), .parners_img:nth-child(3), .parners_img:nth-child(5) {
+    border-bottom: none;
+}
+
+.parners_img:nth-child(2), .parners_img:nth-child(6) {
+    border-right: 0.135vw solid rgba(255, 255, 255, .24);
+    border-bottom: none;
+}
+
+.parners_img:nth-child(4) {
+    border-right: none;
+}
+
+.parners_img:nth-child(8) {
+    border-right: none;
+}
+
+.parners_img img {
+    max-height: unset;
+    max-width: 86.03174603174603%;
+}
+
+.team_info {
+    padding-top: 8vw;
+}
+
+.person_card {
+    padding: 5.34vw 0;
+}
+
+.person_photo {
+    max-width: 37.34vw;
+    max-height: 37.34vw;
+}
+
+.person_name {
+    top: 14vw;
+    left: 32vw;
+    font-size: 6.4vw;
+    line-height: 6.4vw;
+    letter-spacing: 0.128vw;    
+    word-spacing: 100px;
+}
+
+.person_image img {
+    width: 100%;
+}
+
+.first_person_background_circle img, .second_person_background_circle img {
+    width: 100%;
+}
+
+.social {
+    word-spacing: normal;
+}
+
+.social img {
+    padding-top: 1.3vw;
+    max-width: unset;
+    width: 6.27vw;
+}
+
+.person_info {
+    font-size: 3.6vw;
+    max-width: 72vw;
+    line-height: 4.8vw;
+    letter-spacing: 0.216vw;
+    padding-left: 0;
+    padding-bottom: 5.3334vw;
+}
+
+.first_person_background_circle {
+    bottom: 4vw;
+    right: 5.7vw;
+    top: unset;
+    left: unset;
+}
+
+.circle1 {
+    top: -34.7vw;
+    right: -85.4vw;
+}
+
+.circle1 img, .circle1a img {
+    width: 106.6vw;
+     height: unset;
+}
+
+.circle1a {
+    top: 70.7vw;
+    right: -6.7vw;
+}
+
+.second_person {
+    padding-top: 4.6vw;
+    padding-left: 21vw;
+}
+
+.second_person .person_name {
+    top: 16.7vw;
+}
+
+.second_person .person_info {
+    max-width: 56vw;
+    padding-top: 2.7vw;
+}
+
+.team_section {
+    padding-bottom: 9.4vw;
+}
+
+.poverty_title {
+    font-size: 8.793vw;
+    max-width: 585px;
+    line-height: 9.281vw;
+    letter-spacing: 0.176vw;
+     padding-bottom: 4.026vw;
+}
+
+.poverty_description {
+    padding-bottom: 16.6vw;
+}
+
+.poverty_scale_title {
+    font-size: 4vw;
+    line-height: 4.27vw;
+    height: 21.33vw;
+    letter-spacing: 0.128vw;
+}
+
+.poverty_scale_title img {
+    top: -3.1vw;
+    left: -3.1vw;
+    width: 18.66vw;
+    height: 12vw;
+}
+
+.country_numbers {
+    height: 21.38vw;
+}
+
+.country_numbers img {
+    max-height: 11.081vw;
+}
+
+.country_numbers_info {
+    bottom: 6.675vw;
+    right: unset;
+    left: 8vw;
+    line-height: 4.6718vw;
+}
+
+.country_amount {
+    font-size: 6.4vw;
+    line-height: 5.333vw;
+    letter-spacing: -0.128vw;
+}
+
+.circle2 {
+   /*  top: 54.7vw;
+   right: -112vw;
+   width: 162.8vw; */
+}
+
+.circle2 img {
+     width: 167.55vw;
+}
+
+.title_small {
+    font-size: 2.686vw;
+}
+
+.howitworks_section {
+    padding-top: 14.178vw;
+    padding-bottom: 19.4vw;
+}
+
+.circle3 {
+    /*
+    left: -164.1vw;
+    width: 218.2vw; */
+}
+
+.circle3 img {
+   /*  width: 100%; */
+    top: 60vw;
+}
+
+.howitworks_description {
+    font-size: 3.57143vw;
+    padding-right: 1.98413vw;
+    line-height: 4.8vw;
+    letter-spacing: 0.2116vw;
+     padding-top: 4.7vw;
+}
+
+.howitworks_chart {
+    padding-top: 18.66666vw;
+}
+
+.chart_title {
+    font-size: 3.96825vw;
+    padding-bottom: 7.93vw;
+     line-height: 3.8vw;
+    padding-left: 0;
+    max-width: 33.068vw;
+}
+
+.chart_title img {
+    top: -3.9vw;
+    left: -6.6vw;
+     width: 20.6vw;
+    height: 11.6vw;
+}
+
+.coin_qualities_section {
+    padding-bottom: 9.8vw;
+}
+
+.coin_qualities_info .slick-slide, .coin_qualities_info .slick-list {
+    max-width: 72.7vw;
+}
+
+.supervised_card, .sustainable_card {
+    padding: 5.9593vw;
+}
+
+.supervised_card, .sustainable_card {
+    border: 0.58vw solid #ffffff;
+    border-radius: 0.7267vw;
+    padding: 5.9593vw;
+}
+
+.supervised_title, .sustainable_title {
+    font-size: 6.976vw;
+    line-height: 5.523vw;
+    letter-spacing: 0.1395vw;
+    font-family: NanamiPro-Regular8;
+    padding-bottom: 5.1vw;
+}
+
+.supervised_description, .sustainable_description {
+    letter-spacing: 0.116vw;
+}
+
+.foundation_title {
+    letter-spacing: 0.139vw;
+    line-height: 5.3vw;
+    padding-bottom: 5.1vw;
+}
+
+.foundation_text {
+    letter-spacing: 0.104vw;
+}
+
+.foundation_text ul {
+    padding-left: 4vw;
+    padding-right: 19vw;
+    padding-top: 2.9vw;
+    padding-bottom: 7.3vw;
+}
+
+.foundation_chart_img {
+    padding-left: 7.3vw;
+    padding-top: 13.1vw;
+}
+
+.coin_foundation_section {
+    padding-bottom: 10.9vw;
+}
+
+.technology_section {
+    padding-top: 10.9vw;
+    padding-bottom: 8.4vw;
+}
+
+.technology_title {
+    line-height: 5.5vw;
+    letter-spacing: 0.21vw;
+}
+
+.technology_description {
+    padding: 5.4vw 5.8vw;
+}
+
+.technology_info_first {
+    font-size: 3.552vw;
+    line-height: 3.94vw;
+    padding-top: 0;
+    letter-spacing: 0.094vw;
+}
+
+.technology_info_second {
+    font-size: 3.157vw;
+    padding-top: 3.02vw;
+    letter-spacing: 0.084vw;
+    line-height: 4.8vw;
+}
+
+.technology_img img {
+    margin-right: 7.2vw;
+    max-width: 22.13vw;
+}
+
+.coin_value_section {
+    padding-bottom: 11.1vw;
+    padding-top: 9vw;
+}
+
+.coin_value_info > .coin_value_title {
+    max-width: 74.4vw;
+    padding-bottom: 7.4vw;
+    line-height: 5.1vw;
+}
+
+.coin_value_description .coin_value_cell:nth-child(-n+3) {
+    border-top: 0.135vw solid rgba(255,255,255,0.2);
+}
+
+.coin_value_description .slick-slide, .coin_value_description .slick-list {
+    max-width: 56.5vw;
+}
+
+.coin_value_description .background_number {
+    top: 1.31vw;
+    padding-right: 0.744vw;
+    padding-top: 3.7vw;
+}
+
+
+.coin_foundation_description  > .foundation_bottom {
+    font-size: 2.8vw;
+    line-height: 3.6vw;
+    margin-left: 10vw;
+    margin-right: 6vw;
+     padding-top: 3.3vw;
+     padding-right: 25vw;
+}
+
+.coin_value_cell {
+    margin: 0.5vw 1.3vw;
+    font-size: 3.6vw;
+    line-height: 4.2vw;
+    padding: 4vw;
+    float: unset;
+    height: 76vw;
+    letter-spacing: 0.096vw;
+    width: unset !important;
+    border: 0.135vw solid;
+}
+
+
+.background_number span {
+    font-size: 16.9vw;
+    line-height: 17.5vw;
+}
+
+.footer .footer_info {
+    font-size: 2.8vw;
+    line-height: 3.2vw;
+}
+
+.footer .social img {
+    padding-top: 0;
+    width: 6.7vw;
+}
+
+.footer_left {
+    line-height: 6.666666vw;
+}
+
+.footer .social {
+    padding-left: 1.333333vw;
+}
+
+.circle4 {
+ /*    position: absolute;
+ bottom: 25vw;
+ left: 1vw;
+ width: 216vw; */
+}
+
+.circle4 img {
+    /* width: 100%; */
+}
+
+.coin_value_section {
+    padding-bottom: 10vw;
+    padding-top: 8vw;
+}
+
+.footer {
+    padding: 10vw 0;
+}
+
+.main_section {
+    padding-top: 4vw;
+}
+
+.main_description_top_text {
+    max-width: 55.2%;
+    line-height: 6.26666vw;
+     letter-spacing: 0.256vw;
+    font-size: 6.4vw;
+}
+
+.main_description_bottom {
+    padding-top: 5.33333vw;
+}
+
+.team_bottom {
+    padding-top: 6.4vw;
+}
+
+}
